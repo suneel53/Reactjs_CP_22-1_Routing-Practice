@@ -1,0 +1,32 @@
+/* Write your CSS code here */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nav-logo-cont {
+  display: flex;
+  align-items: center;
+}
+.logo-image {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.logo-head {
+  font: 20px;
+}
+.nav-ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+.list {
+  margin-right: 15px;
+}
+.nav-link {
+  text-decoration: none;
+  cursor: pointer;
+}
